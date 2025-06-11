@@ -10,7 +10,6 @@ export const SignUp = () => {
 
     function validatepassword() {
         setTouched(true);
-        setshowPassword(true);
         if (password !== confirmPassword) {
             setIsValid(false);      
         }else {
